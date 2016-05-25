@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
 
-app.get('/',function (req, res) {
-    res.send('Hola Mundo');
-});
+var routerIndex = require('./routes/index');
+
+app.use('/',routerIndex);
 
 app.listen(3000,function () {
     console.log('Servidor Corriendo en http://localhost:3000');
