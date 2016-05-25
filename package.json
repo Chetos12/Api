@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api Rest",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chetos12/Api.git"
+  },
+  "author": "Lester Estuardo Carrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chetos12/Api/issues"
+  },
+  "homepage": "https://github.com/Chetos12/Api#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
